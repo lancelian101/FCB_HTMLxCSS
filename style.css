@@ -1,24 +1,40 @@
-body {
-  font-family: sans-serif;
-  margin: auto;
-  max-width: 1280px;
+body  {
+
+  background-color: #86cfaf;
+
 }
 
-.navbar {
-  background-color: #313236;
-  border-radius: 2px;
-  max-width: 800px;
+img{
+  width: 250px;
+
 }
 
-.navbar a {
-  color: #aaa;
-  display: inline-block;
-  font-size: 15px;
-  padding: 10px;
-  text-decoration: none;
+
+* {
+  font-family: "Didact Gothic", sans-serif;
 }
 
-.navbar a:hover {
-  color: #ffffff;
+h1, h2 {
+  font-family: "Didact+Gothic", sans-serif;
 }
 
+
+#landing, #gallery{
+  height: 80vh;
+  /* center the content vertically using flexbox */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ul, ol{
+  list-style: none;
+  padding: 0;
+
+  color: #d2b0d6;
+}
+
+h2 {
+  color: #1f749c;
+}
